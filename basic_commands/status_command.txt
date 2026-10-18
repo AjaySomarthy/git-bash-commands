@@ -1,0 +1,4 @@
+-- Displays the current state of your repository's working directory and staging area
+
+git status
+

@@ -1,0 +1,5 @@
+-- Merging the changes into branch1 from main
+
+-- First be in branch1, then execute this command
+git rebase main
+

@@ -1,0 +1,12 @@
+-- Stages the changes for a specific file
+git add file1.txt
+
+-- Stages the changes for multiple selected files
+git add file2.txt file3.txt file4.txt
+
+-- Stages the changes for all the files in the entire repository
+git add -A
+
+-- Stages the changes for all the files in the current directory
+git add .
+

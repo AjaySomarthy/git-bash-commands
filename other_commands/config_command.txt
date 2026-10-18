@@ -1,0 +1,11 @@
+-- Setting the user name
+git config --global user.name "Ajay Kumar"
+
+-- Checking the user name
+git config --global user.name
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Setting the user email
+git config --global user.email "ajaykumar****@gmail.com"
+
+-- Checking the user email
+git config --global user.email

@@ -1,0 +1,6 @@
+-- It will pull the changes from remote main to local main
+git pull origin main
+
+-- It will pull the changes from remote branch1 to local branch1
+git pull origin branch1
+

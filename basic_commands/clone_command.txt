@@ -1,0 +1,4 @@
+-- For cloning the project repo to local
+
+git clone "https link of remote repo"
+

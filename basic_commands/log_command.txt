@@ -1,0 +1,4 @@
+-- Displays a repository's commit history
+
+git log
+

@@ -1,0 +1,11 @@
+-- Switching between the branches
+
+-- It will switch to branch1 branch
+git checkout branch1
+
+-- It will switch to main branch
+git checkout main
+
+-- This will create a new branch "branch2" and switch to that branch
+git checkout -b branch2
+

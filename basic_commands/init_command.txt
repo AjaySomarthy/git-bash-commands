@@ -1,0 +1,3 @@
+-- To create a .git in a particular directory
+
+git init

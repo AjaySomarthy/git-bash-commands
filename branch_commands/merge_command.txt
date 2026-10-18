@@ -1,0 +1,5 @@
+-- Merging the changes into main from the branch1
+
+-- First be in main, then execute this command
+git merge branch1
+

@@ -1,0 +1,5 @@
+-- Commit files means saving staged changes
+
+git commit -m "Commit message"
+
+git commit -a -m "Commit message"

@@ -1,0 +1,4 @@
+-- Displays all the available commands from your terminal
+
+git help
+

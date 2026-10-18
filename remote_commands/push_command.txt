@@ -1,0 +1,6 @@
+-- Pushing the changes from local to remote main
+git push origin main
+
+-- Pushing the changes from local to remote branch1
+git push origin branch1
+

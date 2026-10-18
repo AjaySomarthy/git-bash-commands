@@ -1,0 +1,4 @@
+-- Displays all the remote repositories linked to your local repository
+
+git remote -v
+

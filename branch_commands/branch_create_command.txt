@@ -1,0 +1,4 @@
+-- Creating a branch
+
+-- This will create a new branch as "branch1"
+git branch branch1

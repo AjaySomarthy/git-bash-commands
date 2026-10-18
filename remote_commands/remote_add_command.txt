@@ -1,0 +1,4 @@
+-- To add remote repo to your local repo
+
+git remote add origin "https Link of repo"
+

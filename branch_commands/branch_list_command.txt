@@ -1,0 +1,11 @@
+-- Viewing the list of branches
+
+-- To see the local branches
+git branch
+git branch -l
+
+-- To see the remote branches
+git branch -r
+
+-- To see all the branches (local and remote)
+git branch -a
