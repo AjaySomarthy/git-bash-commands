@@ -1,0 +1,15 @@
+-- View local, unstaged changes you just made
+git diff <branch-name>
+
+-- Review what is ready to be committed via git add.
+git diff --staged (or --cached)
+
+-- See all local changes since your last commit
+git diff HEAD
+
+-- Track history and see what changed between two specific points
+git diff <commit1> <commit2>
+
+-- Preview code discrepancies before merging branches
+git diff <branch1> <branch2>
+

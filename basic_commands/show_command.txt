@@ -1,0 +1,24 @@
+-- Shows the metadata and full diff of the HEAD commit
+git show
+
+-- Views the absolute latest changes made to development branch
+git show development
+
+-- Views the absolute latest changes made to main branch
+git show main
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Shows details for a specific commit using its SHA-1 hash
+git show <commit-hash>
+
+-- Limits the diff output to a single specified file
+git show <commit-hash> <file-path>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Collapses the metadata and commit message into a single line (ideal for a quick glance
+git show --oneline
+
+-- Suppresses the line-by-line diff and lists only the names of the files that were modified
+git show --name-only
+
+-- Suppresses the structural diff entirely, showing only the commit metadata (author, date, message
+git show -s
+

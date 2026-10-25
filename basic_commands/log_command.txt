@@ -1,4 +1,45 @@
--- Displays a repository's commit history
-
+-- displays the commit history of a repository for which you are in, in reverse chronological order
+-- displays unique commit hash, author's name, email, date it is created and commit message
 git log
+
+-- displays the commit history of development repo 
+git log development
+
+-- displays the commit history of main repo 
+git log main
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- Compact View
+-- displays oneline for each commit history
+-- this line includes 7 character hash and commit message
+git log --oneline
+
+
+-- Visual tree
+-- displays an ASCII graph showing how branches diverge, merge, and interconnect
+git log --oneline --graph --all
+
+
+-- File Statistics
+-- displays which files were changed, alongside the number of lines added or removed
+git log --stat
+
+-- Full code diff
+-- displays the actual line-by-line patch/code changes introduced in each commit
+git log -p
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- By Count
+-- displays only last 4 commits history
+git log -n 4
+
+-- By Author
+-- filters commits by a specific person
+git log --author="Ajay Kumar"
+
+-- By Date
+-- filters by a specific time frame
+git log --since="2 days ago" --until="today"
+
+-- By File
+-- displays history exclusively for a specific file
+git log -- file1.txt
 
